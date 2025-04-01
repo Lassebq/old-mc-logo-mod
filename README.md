@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Classic Minecraft Logo
 
-## Setup
+A simple mod that aims to bring back pixelated logo from before 1.20. The reason why this mod exists is because resourcepacks cannot make a pixel-perfect replacement of the HD logo with the old one. It won't be properly scaled.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+You can also replace this texture with resourcepacks if you include the texture in the old format at `assets/oldmclogo/textures/gui/title/{minecraft,edition}.png`
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+The code within this repository is licensed under MIT license
