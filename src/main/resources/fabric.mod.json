@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "oldmclogo",
+	"version": "${version}",
+	"name": "Classic Minecraft Logo",
+	"description": "Bring the old pixelated logo back.",
+	"authors": [
+		"lassebq"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/classic-minecraft-logo",
+		"issues": "https://github.com/Lassebq/old-mc-logo-mod/issues",
+		"sources": "https://github.com/Lassebq/old-mc-logo-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/oldmclogo/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"modmenu": [
+			"io.github.lassebq.oldmclogo.ModMenuIntegration"
+		],
+		"client": [
+			"io.github.lassebq.oldmclogo.Mod"
+		]
+	},
+	"mixins": [
+		{
+			"config": "oldmclogo.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20 <=1.21.1",
+		"java": ">=17",
+		"cloth-config2": "*"
+	},
+	"suggests": {
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "text.autoconfig.oldmclogo.title": "Classic Minecraft Logo Config",
+    "text.autoconfig.oldmclogo.option.enabled": "Enable the Mod",
+    "text.autoconfig.oldmclogo.option.pixelatedStyle": "Pixelated style",
+    "text.autoconfig.oldmclogo.option.pixelatedStyle.@Tooltip": "Use pixelated logo style",
+    "text.autoconfig.oldmclogo.option.removeJavaEdition": "Remove Java Edition",
+    "text.autoconfig.oldmclogo.option.removeJavaEdition.@Tooltip": "Remove Java Edition text under the logo",
+    "text.autoconfig.oldmclogo.option.useMinecraftNamespace": "Use vanilla texture",
+    "text.autoconfig.oldmclogo.option.useMinecraftNamespace.@Tooltip": "Use texture from \"minecraft\" namespace. This may be useful for some resourcepacks which provide texture in the old format."
+}
